@@ -1,0 +1,5 @@
+npm install hexo-next-darkmode --save
+npm install hexo-generator-searchdb --save
+npm install hexo-excerpt --save
+hexo
+NexT
