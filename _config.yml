@@ -98,6 +98,17 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
+theme_config:
+
+# Easily enable fast Ajax navigation on your website.
+# For more information: https://github.com/next-theme/pjax
+pjax: true
+
+vendors:
+  # ...
+  # Some contents...
+  # ...
+  plugins: unpkg
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

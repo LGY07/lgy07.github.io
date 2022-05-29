@@ -34,23 +34,6 @@
 <br/>]]></content>
   </entry>
   <entry>
-    <title>在任意Linux发行版安装pacman软件包管理器</title>
-    <url>/2022/01/06/%E5%9C%A8%E4%BB%BB%E6%84%8FLinux%E5%8F%91%E8%A1%8C%E7%89%88%E5%AE%89%E8%A3%85pacman%E8%BD%AF%E4%BB%B6%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8/</url>
-    <content><![CDATA[<h1 id="在任意的Linux发行版使用pacman软件包管理器"><a href="#在任意的Linux发行版使用pacman软件包管理器" class="headerlink" title="在任意的Linux发行版使用pacman软件包管理器"></a>在任意的Linux发行版使用pacman软件包管理器</h1><hr>
-<h5 id="作为Arch母亲的忠实用户，你是否为其他的Linux发行版没有pacman感到烦恼"><a href="#作为Arch母亲的忠实用户，你是否为其他的Linux发行版没有pacman感到烦恼" class="headerlink" title="作为Arch母亲的忠实用户，你是否为其他的Linux发行版没有pacman感到烦恼"></a>作为Arch<del>母亲</del>的忠实用户，你是否为其他的Linux发行版没有pacman感到烦恼</h5><h4 id="用优秀的灵格丁先生写的pacman-installer脚本！"><a href="#用优秀的灵格丁先生写的pacman-installer脚本！" class="headerlink" title="用优秀的灵格丁先生写的pacman-installer脚本！"></a>用优秀的<a href="https://github.com/lingrottin">灵格丁</a>先生写的<a href="https://github.com/LGY07/pacman-installer">pacman-installer</a>脚本！</h4><p>dnf用户可以使用<code>$sudo dnf install pacman</code>来安装，但是需要更改<code>/etc/pacman.conf</code>的配置文件，改变根目录,需要更改的部分：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">RootDir     = /你希望用来安装软件的目录/</span><br><span class="line">DBPath      = /你希望用来安装软件的目录/var/lib/pacman/</span><br><span class="line">CacheDir    = /你希望用来安装软件的目录/var/cache/pacman/pkg/</span><br><span class="line">LogFile     = /你希望用来安装软件的目录/var/log/pacman.log</span><br></pre></td></tr></table></figure>
-<p>然后创建目录，确保以上目录存在：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$sudo mkdir /你希望用来安装软件的目录/</span><br><span class="line">$sudo mkdir /你希望用来安装软件的目录/var/</span><br><span class="line">$sudo mkdir /你希望用来安装软件的目录/var/lib/</span><br><span class="line">$sudo mkdir /你希望用来安装软件的目录/var/lib/pacman/</span><br><span class="line">$sudo mkdir /你希望用来安装软件的目录/var/cache/</span><br><span class="line">$sudo mkdir /你希望用来安装软件的目录/var/cache/pacman/</span><br><span class="line">$sudo mkdir /你希望用来安装软件的目录/var/cache/pacman/</span><br><span class="line">$sudo mkdir /你希望用来安装软件的目录/var/log/</span><br></pre></td></tr></table></figure>
-
-<br/>
-
-<p>如果是其他用户，请使用<a href="https://github.com/LGY07/pacman-installer">pacman-installer</a>安装脚本,你可以按照READEME的标准安装方式，也可以使用以下命令快捷安装：</p>
-<p>wget下载器：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$su - -c &#x27;bash &lt;(wget -O- https://github.com/LGY07/pacman-installer/raw/main/pacman-installer.sh)&#x27;</span><br></pre></td></tr></table></figure>
-<p>curl下载器：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$su - -c &#x27;bash &lt;(curl https://github.com/LGY07/pacman-installer/raw/main/pacman-installer.sh)&#x27;</span><br></pre></td></tr></table></figure>]]></content>
-  </entry>
-  <entry>
     <title>在NVMe硬盘安装ArchLinux+Windows11</title>
     <url>/2021/12/19/%E5%9C%A8NVMe%E7%A1%AC%E7%9B%98%E5%AE%89%E8%A3%85ArchLinux-Windows11/</url>
     <content><![CDATA[<h1 id="如何安装ArchLinux和Windows11在NVMe硬盘："><a href="#如何安装ArchLinux和Windows11在NVMe硬盘：" class="headerlink" title="如何安装ArchLinux和Windows11在NVMe硬盘："></a>如何安装ArchLinux和Windows11在NVMe硬盘：</h1><hr>
@@ -86,5 +69,22 @@
 <p>（如果你之前装的grub配置文件为”grub.conf”，请将以上命令的”grub.cfg”改为”grub.conf”）</p>
 <h5 id="引导部分可以自己看看ArchWiki："><a href="#引导部分可以自己看看ArchWiki：" class="headerlink" title="引导部分可以自己看看ArchWiki："></a>引导部分可以自己看看ArchWiki：</h5><p><a href="https://wiki.archlinux.org/title/GRUB_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)#%E5%A4%9A%E7%B3%BB%E7%BB%9F%E5%90%AF%E5%8A%A8">GRUB (简体中文) - ArchWiki (archlinux.org)</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>在任意Linux发行版安装pacman软件包管理器</title>
+    <url>/2022/01/06/%E5%9C%A8%E4%BB%BB%E6%84%8FLinux%E5%8F%91%E8%A1%8C%E7%89%88%E5%AE%89%E8%A3%85pacman%E8%BD%AF%E4%BB%B6%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8/</url>
+    <content><![CDATA[<h1 id="在任意的Linux发行版使用pacman软件包管理器"><a href="#在任意的Linux发行版使用pacman软件包管理器" class="headerlink" title="在任意的Linux发行版使用pacman软件包管理器"></a>在任意的Linux发行版使用pacman软件包管理器</h1><hr>
+<h5 id="作为Arch母亲的忠实用户，你是否为其他的Linux发行版没有pacman感到烦恼"><a href="#作为Arch母亲的忠实用户，你是否为其他的Linux发行版没有pacman感到烦恼" class="headerlink" title="作为Arch母亲的忠实用户，你是否为其他的Linux发行版没有pacman感到烦恼"></a>作为Arch<del>母亲</del>的忠实用户，你是否为其他的Linux发行版没有pacman感到烦恼</h5><h4 id="用优秀的灵格丁先生写的pacman-installer脚本！"><a href="#用优秀的灵格丁先生写的pacman-installer脚本！" class="headerlink" title="用优秀的灵格丁先生写的pacman-installer脚本！"></a>用优秀的<a href="https://github.com/lingrottin">灵格丁</a>先生写的<a href="https://github.com/LGY07/pacman-installer">pacman-installer</a>脚本！</h4><p>dnf用户可以使用<code>$sudo dnf install pacman</code>来安装，但是需要更改<code>/etc/pacman.conf</code>的配置文件，改变根目录,需要更改的部分：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">RootDir     = /你希望用来安装软件的目录/</span><br><span class="line">DBPath      = /你希望用来安装软件的目录/var/lib/pacman/</span><br><span class="line">CacheDir    = /你希望用来安装软件的目录/var/cache/pacman/pkg/</span><br><span class="line">LogFile     = /你希望用来安装软件的目录/var/log/pacman.log</span><br></pre></td></tr></table></figure>
+<p>然后创建目录，确保以上目录存在：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$sudo mkdir /你希望用来安装软件的目录/</span><br><span class="line">$sudo mkdir /你希望用来安装软件的目录/var/</span><br><span class="line">$sudo mkdir /你希望用来安装软件的目录/var/lib/</span><br><span class="line">$sudo mkdir /你希望用来安装软件的目录/var/lib/pacman/</span><br><span class="line">$sudo mkdir /你希望用来安装软件的目录/var/cache/</span><br><span class="line">$sudo mkdir /你希望用来安装软件的目录/var/cache/pacman/</span><br><span class="line">$sudo mkdir /你希望用来安装软件的目录/var/cache/pacman/</span><br><span class="line">$sudo mkdir /你希望用来安装软件的目录/var/log/</span><br></pre></td></tr></table></figure>
+
+<br/>
+
+<p>如果是其他用户，请使用<a href="https://github.com/LGY07/pacman-installer">pacman-installer</a>安装脚本,你可以按照READEME的标准安装方式，也可以使用以下命令快捷安装：</p>
+<p>wget下载器：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$su - -c &#x27;bash &lt;(wget -O- https://github.com/LGY07/pacman-installer/raw/main/pacman-installer.sh)&#x27;</span><br></pre></td></tr></table></figure>
+<p>curl下载器：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$su - -c &#x27;bash &lt;(curl https://github.com/LGY07/pacman-installer/raw/main/pacman-installer.sh)&#x27;</span><br></pre></td></tr></table></figure>]]></content>
   </entry>
 </search>

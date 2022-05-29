@@ -12,6 +12,8 @@
     "version": "6.2.0"
   },
   "dependencies": {
+    "@waline/hexo-next": "^3.0.1",
+    "glob": "^8.0.3",
     "hexo": "^6.2.0",
     "hexo-excerpt": "^1.2.1",
     "hexo-generator-archive": "^1.0.0",
@@ -22,9 +24,9 @@
     "hexo-next-darkmode": "^0.1.9",
     "hexo-renderer-ejs": "^2.0.0",
     "hexo-renderer-marked": "^5.0.0",
-    "hexo-renderer-stylus": "^2.0.0",
+    "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
-    "hexo-symbols-count-time": "^0.6.2",
+    "hexo-symbols-count-time": "^0.7.1",
     "hexo-theme-landscape": "^0.0.3"
   }
 }
