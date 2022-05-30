@@ -62,6 +62,9 @@ darkmode_js:
   autoMatchOsTheme: true # default: true
   libUrl: # Set custom library cdn url for Darkmode.js
 
+# Fireworks
+fireworks: true
+
 # ---------------------------------------------------------------
 # Site Information Settings
 # ---------------------------------------------------------------
@@ -553,7 +556,7 @@ mediumzoom: false
 
 # Vanilla JavaScript plugin for lazyloading images.
 # For more information: https://apoorv.pro/lozad.js/demo/
-lazyload: false
+lazyload: true
 
 # Pangu Support
 # For more information: https://github.com/vinta/pangu.js
@@ -946,7 +949,7 @@ waline:
   #   - https://unpkg.com/@waline/emojis@1.0.1/qq
   #   - https://unpkg.com/@waline/emojis@1.0.1/tieba
   #   - https://unpkg.com/@waline/emojis@1.0.1/tw-emoji
-  emoji: https://unpkg.com/@waline/emojis@1.0.1/tieba
+  #emoji: https://unpkg.com/@waline/emojis@1.0.1/tieba
 
   # Comment infomation, valid meta are nick, mail and link
   # meta:
