@@ -157,7 +157,7 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: /images/avatar.jpg
+  url: https://huashijituan.coding.net/p/liuzhierzhong/d/liuzhierzhong/git/raw/pages/rosmontis.jpg
   # If true, the avatar will be displayed in circle.
   rounded: false
   # If true, the avatar will be rotated with the cursor.
