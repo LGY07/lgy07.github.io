@@ -1,3 +1,4 @@
+NexT主题
 npm install hexo-next-darkmode --save
 npm install hexo-generator-searchdb --save
 npm install hexo-excerpt --save
@@ -26,3 +27,10 @@ themes/next/layout/_layout.njk:
    <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
    <script type="text/javascript" src="/js/fireworks.js"></script>
 {% endif %}
+
+Arknights主题：
+git clone https://github.com/Yue-plus/hexo-theme-arknights.git themes/arknights
+npm install hexo-server hexo-browsersync hexo-renderer-pug --save
+npm install hexo-generator-searchdb --save
+npm install hexo-filter-mathjax --save
+npm install valine --save
