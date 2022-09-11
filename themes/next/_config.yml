@@ -905,7 +905,7 @@ waline:
   enable: true
 
   # Waline server address url, you should set this to your own link
-  serverURL: https://blog-discuss-2jotzolgh-lgy07.vercel.app
+  serverURL: https://blog-discuss.vercel.app
 
   # Waline library CDN url, you can set this to your preferred CDN
   libUrl: https://unpkg.com/@waline/client@v2/dist/waline.js
