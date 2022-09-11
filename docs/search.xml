@@ -57,34 +57,37 @@
   <entry>
     <title>使用脚本安装ArchLinux(不一定成功)</title>
     <url>/2022/01/08/003/</url>
-    <content><![CDATA[<h1 id="ArchLinux安装教程（不完全是）"><a href="#ArchLinux安装教程（不完全是）" class="headerlink" title="ArchLinux安装教程（不完全是）"></a>ArchLinux安装教程（不完全是）</h1><hr>
-<p><img src="https://huashijituan.coding.net/p/liuzhierzhong/d/liuzhierzhong/git/raw/pages/Linux.png?download=false" alt="Linux的选择.png"></p>
-<p>学习ArchLinux<code>找不到教程，看不懂官方文档，嫌麻烦</code>是很大的问题</p>
-<p>为了帮助便捷地安装ArchLinux，我写了一个<a href="https://github.com/LGY07/arch-install">交互式安装脚本</a>(<del>祸害</del>)</p>
-<p>优势在于可以通过以下几步快速的完成ArchLinux的安装（已经有别的安装脚本，但是个人认为比正常安装还麻烦</p>
+    <content><![CDATA[<h1 id="ArchLinux-安装教程（不完全是）"><a href="#ArchLinux-安装教程（不完全是）" class="headerlink" title="ArchLinux 安装教程（不完全是）"></a>ArchLinux 安装教程（不完全是）</h1><hr>
+<p><img data-src="/images/Linux.png" alt="Linux的选择.png"></p>
+<p>学习 ArchLinux<code>找不到教程，看不懂官方文档，嫌麻烦</code>是很大的问题</p>
+<p>为了帮助便捷地安装 ArchLinux，我写了一个<a href="https://github.com/LGY07/arch-install">交互式安装脚本</a>(<del>祸害</del>)</p>
+<p>优势在于可以通过以下几步快速的完成 ArchLinux 的安装（已经有别的安装脚本，但是个人认为比正常安装还麻烦</p>
 <h3 id="1-下载镜像"><a href="#1-下载镜像" class="headerlink" title="1.下载镜像"></a>1.下载镜像</h3><p><a href="https://mirrors.tuna.tsinghua.edu.cn/archlinux/iso/latest/">清华大学镜像站</a></p>
-<h3 id="2-烧录镜像"><a href="#2-烧录镜像" class="headerlink" title="2.烧录镜像"></a>2.烧录镜像</h3><p>可以使用<a href="https://rufus.ie/zh/">Rufus</a>烧录（一定要FAT32而不是NTFS）</p>
-<p>或者直接打开镜像，把里面的文件全部复制到一个格式为FAT32的U盘里</p>
-<h3 id="3-重启电脑进入镜像"><a href="#3-重启电脑进入镜像" class="headerlink" title="3.重启电脑进入镜像"></a>3.重启电脑进入镜像</h3><p>（混完3个步骤的字数了</p>
-<h2 id="4-下载安装脚本"><a href="#4-下载安装脚本" class="headerlink" title="4.下载安装脚本"></a>4.下载安装脚本</h2><figure class="highlight open plaintext"><span class="code-header">    <span class="code-title">      <div class="code-icon"></div>TEXT 共 1 行</span>      <span class="code-header-tail">        <button class="code-copy"></button>        <span class="code-space">展开</span></span></span></span>    <div class="code-box"><table><tr><td class="code"><pre><code class="hljs plaintext">curl -O https://huashijituan.coding.net/p/liuzhierzhong/d/liuzhierzhong/git/raw/master/install.sh<br></code></pre></td></tr></table></div></figure>
+<h3 id="2-烧录镜像"><a href="#2-烧录镜像" class="headerlink" title="2.烧录镜像"></a>2.烧录镜像</h3><p>可以使用<a href="https://rufus.ie/zh/">Rufus</a>烧录（一定要 FAT32 而不是 NTFS）</p>
+<p>或者直接打开镜像，把里面的文件全部复制到一个格式为 FAT32 的 U 盘里</p>
+<h3 id="3-重启电脑进入镜像"><a href="#3-重启电脑进入镜像" class="headerlink" title="3.重启电脑进入镜像"></a>3.重启电脑进入镜像</h3><p>（混完 3 个步骤的字数了</p>
+<h2 id="4-下载安装脚本"><a href="#4-下载安装脚本" class="headerlink" title="4.下载安装脚本"></a>4.下载安装脚本</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">curl -O https://huashijituan.coding.net/p/liuzhierzhong/d/liuzhierzhong/git/raw/master/install.sh</span><br></pre></td></tr></table></figure>
+
 <p><del>这可能是最困难的步骤，需要视力以及打字速度，但是好在它不需要更改</del></p>
-<h2 id="5-运行脚本"><a href="#5-运行脚本" class="headerlink" title="5.运行脚本"></a>5.运行脚本</h2><figure class="highlight open plaintext"><span class="code-header">    <span class="code-title">      <div class="code-icon"></div>TEXT 共 1 行</span>      <span class="code-header-tail">        <button class="code-copy"></button>        <span class="code-space">展开</span></span></span></span>    <div class="code-box"><table><tr><td class="code"><pre><code class="hljs plaintext">bash ./install.sh<br></code></pre></td></tr></table></div></figure>
+<h2 id="5-运行脚本"><a href="#5-运行脚本" class="headerlink" title="5.运行脚本"></a>5.运行脚本</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">bash ./install.sh</span><br></pre></td></tr></table></figure>
+
 <p>在脚本中，需要进行的步骤：</p>
-<h3 id="分区：使用cfdisk分区，选择gpt"><a href="#分区：使用cfdisk分区，选择gpt" class="headerlink" title="分区：使用cfdisk分区，选择gpt"></a>分区：使用cfdisk分区，选择gpt</h3><p>使用⬆⬇键选择位置，选择空闲的空间</p>
-<p>使用⬅➡键选择对当前位置的操作，选择New创建分区</p>
-<p>输入引导分区大小为1G（可以很小，<del>100M也行</del>，但是不推荐）</p>
-<p>输入根目录分区大小最好在10G以上（<del>也许2G也行，足以体现ArchLinux的轻量</del>）</p>
-<p>选择Write，输入yes，选择Quit退出</p>
-<h3 id="选择分区"><a href="#选择分区" class="headerlink" title="选择分区"></a>选择分区</h3><p>输入刚才的根目录分区位置(例如sdaX，Nvme盘为nvme0n1pX)</p>
+<h3 id="分区：使用-cfdisk-分区，选择-gpt"><a href="#分区：使用-cfdisk-分区，选择-gpt" class="headerlink" title="分区：使用 cfdisk 分区，选择 gpt"></a>分区：使用 cfdisk 分区，选择 gpt</h3><p>使用 ⬆⬇ 键选择位置，选择空闲的空间</p>
+<p>使用 ⬅➡ 键选择对当前位置的操作，选择 New 创建分区</p>
+<p>输入引导分区大小为 1G（可以很小，<del>100M 也行</del>，但是不推荐）</p>
+<p>输入根目录分区大小最好在 10G 以上（<del>也许 2G 也行，足以体现 ArchLinux 的轻量</del>）</p>
+<p>选择 Write，输入 yes，选择 Quit 退出</p>
+<h3 id="选择分区"><a href="#选择分区" class="headerlink" title="选择分区"></a>选择分区</h3><p>输入刚才的根目录分区位置(例如 sdaX，Nvme 盘为 nvme0n1pX)</p>
 <p>输入引导分区位置</p>
-<h3 id="选择内核"><a href="#选择内核" class="headerlink" title="选择内核"></a>选择内核</h3><p>默认linux-zen</p>
-<h3 id="选择桌面环境"><a href="#选择桌面环境" class="headerlink" title="选择桌面环境"></a>选择桌面环境</h3><p>默认KDE Plasma</p>
-<h3 id="选择文本编辑器"><a href="#选择文本编辑器" class="headerlink" title="选择文本编辑器"></a>选择文本编辑器</h3><p>默认Vim</p>
-<h3 id="选择AUR助手"><a href="#选择AUR助手" class="headerlink" title="选择AUR助手"></a>选择AUR助手</h3><p>默认Yay</p>
-<h3 id="接下来会自动pacstrap安装系统"><a href="#接下来会自动pacstrap安装系统" class="headerlink" title="接下来会自动pacstrap安装系统"></a>接下来会自动pacstrap安装系统</h3><p>完成后提示输入用户名，设置你的用户名，不要有空格</p>
+<h3 id="选择内核"><a href="#选择内核" class="headerlink" title="选择内核"></a>选择内核</h3><p>默认 linux-zen</p>
+<h3 id="选择桌面环境"><a href="#选择桌面环境" class="headerlink" title="选择桌面环境"></a>选择桌面环境</h3><p>默认 KDE Plasma</p>
+<h3 id="选择文本编辑器"><a href="#选择文本编辑器" class="headerlink" title="选择文本编辑器"></a>选择文本编辑器</h3><p>默认 Vim</p>
+<h3 id="选择-AUR-助手"><a href="#选择-AUR-助手" class="headerlink" title="选择 AUR 助手"></a>选择 AUR 助手</h3><p>默认 Yay</p>
+<h3 id="接下来会自动-pacstrap-安装系统"><a href="#接下来会自动-pacstrap-安装系统" class="headerlink" title="接下来会自动 pacstrap 安装系统"></a>接下来会自动 pacstrap 安装系统</h3><p>完成后提示输入用户名，设置你的用户名，不要有空格</p>
 <p>设置用户的密码，输入两次，不会显示出来，甚至输入后没变化，是正常现象（下同）</p>
-<p>设置root的密码</p>
-<h2 id="完成安装"><a href="#完成安装" class="headerlink" title="完成安装"></a>完成安装</h2><p>显示FINISH，10秒后自动重启</p>
-<br/>]]></content>
+<p>设置 root 的密码</p>
+<h2 id="完成安装"><a href="#完成安装" class="headerlink" title="完成安装"></a>完成安装</h2><p>显示 FINISH，10 秒后自动重启</p>
+<br/>
+]]></content>
   </entry>
 </search>
