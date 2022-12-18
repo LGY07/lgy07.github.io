@@ -133,3 +133,9 @@ symbols_count_time:
   # 站点总阅读时间统计
   total_time: false
   exclude_codeblock: true
+
+# Feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: false
