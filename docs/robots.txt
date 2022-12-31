@@ -4,4 +4,4 @@ Disallow:/js
 Disallow:/images
 Disallow:/404.html
 
-Sitemap:https://blog.lgy07.me/sitemap.xml
+Sitemap:https://blog.rosmontis.fun/sitemap.xml
