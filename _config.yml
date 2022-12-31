@@ -28,7 +28,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render: baidu_verify_code-qIrbLfGzV7.html
+skip_render: googlec16dbb02c9b6f8f2.html
 
 # Writing
 new_post_name: :title.md # File name of new posts
