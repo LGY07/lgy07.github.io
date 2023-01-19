@@ -1126,6 +1126,9 @@ pre code {
     margin-left: 0;
   }
 }
+.use-motion .menu-item {
+  visibility: hidden;
+}
 .book-mark-link {
   border-bottom: 0;
   position: fixed;

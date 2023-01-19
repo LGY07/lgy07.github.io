@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>在NVMe硬盘安装ArchLinux+Windows11</title>
-    <url>/2021/12/19/001/</url>
+    <url>/2021/12/19/202112191040/</url>
     <content><![CDATA[<h1 id="如何安装ArchLinux和Windows11在NVMe硬盘："><a href="#如何安装ArchLinux和Windows11在NVMe硬盘：" class="headerlink" title="如何安装ArchLinux和Windows11在NVMe硬盘："></a>如何安装ArchLinux和Windows11在NVMe硬盘：</h1><hr>
 <p>（第一次写博客，可能很烂（</p>
 <h5 id="本文主要解决以下问题："><a href="#本文主要解决以下问题：" class="headerlink" title="本文主要解决以下问题："></a>本文主要解决以下问题：</h5><p><code>1.ArchLinux无法识别较新的NVMe（我的是金士顿A2000）</code></p>
