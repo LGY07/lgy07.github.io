@@ -21,6 +21,10 @@ Telegram: [Ursus Feline](https://t.me/UsrusFeline)
 
 QQ:920443390
 
+# 关于域名
+
+**我是一名 Rosmontis 厨**
+
 # 关于[University of Fool](https://uof.edu.kg/)
 
 这并不是一所真正的大学,是由我的几个朋友和我一起搭建的博客网站,也是一个 Github 的组织名,它的前身是[Mutruc Studio](https://github.com/mutruc),但是这个工作室现在已经被鸽子们存档于 UOF 的音乐游戏社团了,~~Mutruc 是优秀的概念音游~~
