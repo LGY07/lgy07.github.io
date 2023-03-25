@@ -31,7 +31,7 @@ QQ:920443390
 
 # 我的朋友们
 
-- [Lingrottin](https://lingrottin.uof.edu.kg/)校长
+- [Lingrottin](https://enita.cn/)校长
 
 - [Ltfjx](https://ltfjx.uof.edu.kg/)校长
 
