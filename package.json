@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@waline/hexo-next": "^3.0.1",
-    "glob": "^10.2.5",
+    "glob": "^10.2.6",
     "hexo": "^6.2.0",
     "hexo-browsersync": "^0.3.0",
     "hexo-cli": "^4.3.0",
