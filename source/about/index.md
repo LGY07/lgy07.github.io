@@ -33,7 +33,7 @@ QQ:920443390
 
 - [Lingrottin](https://enita.cn/)校长
 
-- [Ltfjx](https://ltfjx.uof.edu.kg/)校长
+- [Ltfjx](https://akyuu.cn/)校长
 
 > 备注:他们都很可爱
 
@@ -62,5 +62,3 @@ QQ:920443390
 - blog.rosmontis.fun
 
 - blog.rosmontis.tech
-
-通常第二种方式能更快速的访问，但是 Waline 评论可能不会正常工作
