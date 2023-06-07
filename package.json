@@ -41,5 +41,6 @@
     "hexo-wordcount": "^6.0.1",
     "highlight.js": "^11.5.1",
     "valine": "^1.5.0"
-  }
+  },
+  "packageManager": "yarn@3.6.0"
 }
