@@ -1,7 +1,0 @@
-User-agent:*
-Disallow:/css
-Disallow:/js
-Disallow:/images
-Disallow:/404.html
-
-Sitemap:https://blog.lgy07.me/sitemap.xml

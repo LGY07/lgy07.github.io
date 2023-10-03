@@ -1,8 +1,0 @@
-npm install hexo-next-darkmode --save
-npm install hexo-generator-searchdb --save
-npm install hexo-excerpt --save
-npm install hexo-symbols-count-time
-npm i @waline/hexo-next
-
-hexo
-NexT
