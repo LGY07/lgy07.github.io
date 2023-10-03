@@ -40,8 +40,8 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
-      - run: npx yarn install
-      - run: npx yarn hexo generate --force
+      - run: npx yarn
+      - run: npx yarn build
       - run: mv public _site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
